@@ -1,10 +1,11 @@
 {
   "name": "goit-js-hw-11",
-  "version": "2.0.0",
+  "version": "1.1.0",
   "description": "",
+  "main": "index.js",
   "homepage": "https://Yudzhin1408.github.io/goit-js-hw-11",
   "scripts": {
-    "start": "parcel src/*.html",
+    "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
@@ -17,14 +18,18 @@
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "dependencies": {
+    "axios": "^0.27.2",
+    "handlebars": "^4.7.7",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.3"
+  }
 }

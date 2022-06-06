@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+}
+
+.main {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  margin: 0 auto;
+}
+
+.conteiner {
+  min-width: 320px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    min-width: 768px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .conteiner {
+    max-width: 1280px;
+    padding: 0 40px;
+  }
+}

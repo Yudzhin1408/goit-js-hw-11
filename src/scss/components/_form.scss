@@ -1,0 +1,37 @@
+.form-section {
+  width: 100%;
+  background-color: #2247cc;
+  margin: 0 auto;
+}
+
+.box-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.form {
+  position: relative;
+  width: 50%;
+
+  & input {
+    width: 100%;
+    height: 2vw;
+  }
+}
+
+.button {
+  background-image: url(../img/search.svg);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 1.5vw;
+  height: 1.5vw;
+  transform: translateY(-50%);
+}
+
+.svg-icon {
+  fill: red;
+}
